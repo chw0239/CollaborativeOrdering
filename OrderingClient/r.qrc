@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>res/dessert_brownie.jpg</file>
+        <file>res/dessert_cake.jpeg</file>
+        <file>res/dessert_ice_cream.jpg</file>
+        <file>res/dessert_mousse.jpg</file>
+        <file>res/drink_cafe.jpg</file>
+        <file>res/drink_coca_cola.jpg</file>
+        <file>res/drink_orange_juice.jpg</file>
+        <file>res/drink_sprite.jpg</file>
+        <file>res/drink_tea.jpg</file>
+        <file>res/mc_beef.jpg</file>
+        <file>res/mc_chicken.jpg</file>
+        <file>res/mc_fish.jpg</file>
+        <file>res/mc_hambuger.jpg</file>
+        <file>res/mc_pork.jpg</file>
+        <file>res/mc_spaghetti.jpg</file>
+        <file>res/mc_sushi.jpg</file>
+        <file>res/mc_vegetable_noodles.jpg</file>
+        <file>res/starter_avocado.jpg</file>
+        <file>res/starter_fruit_salad.jpg</file>
+        <file>res/starter_hot_dog.jpg</file>
+        <file>res/starter_spring_roll.jpg</file>
+        <file>res/starter_veg_salad.jpg</file>
+    </qresource>
+    <qresource prefix="/xml">
+        <file>res/menu.xml</file>
+    </qresource>
+</RCC>
