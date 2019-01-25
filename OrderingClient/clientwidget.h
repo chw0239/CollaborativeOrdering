@@ -56,6 +56,8 @@ private:
     int total=0, yours=0;
     int selectedOrder;
 
+    Qt::GlobalColor colorList[11] ={ Qt::black,Qt::red,Qt::blue,Qt::darkGreen,Qt::darkYellow,Qt::cyan,Qt::magenta,Qt::gray,Qt::darkBlue,Qt::green,Qt::darkRed};
+
 public slots:
     void addOrder(Dish* p);
     void slotConnect();

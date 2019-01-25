@@ -171,7 +171,13 @@ void ClientWidget::updateListWidget()
                 QString::fromUtf8("€")+"  client "+QString::number(orderList.at(i).ClientId);
 
         qDebug()<<"    client "<<orderList.at(i).ClientId<<"  dish "<<orderList.at(i).DishId;
-        ui->listWidget->addItem(itemstring);
+
+        QListWidgetItem *newItem = new QListWidgetItem();
+        newItem->setText(itemstring);
+        newItem->setTextColor(colorList[orderList.at(i).ClientId]);
+
+
+        ui->listWidget->addItem(newItem);
     }
 
     ui->label_2->setText(QString("Total: ")+ QString::number(total).rightJustified(3)+
